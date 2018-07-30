@@ -1,0 +1,197 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.maindiv{
+	margin-top: 0px;
+	height: 500px;
+	background: url('../../img/g.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+.maindiv2{
+	margin-top: 0px;
+	height: 1000px;
+	background: url('../../img/g.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+.back{
+	background-color: red;
+}
+.container{
+	margin-top: 10px;
+}
+#newAcc{
+	padding: 30px;
+}
+
+#centerheader{
+
+	color:white;
+	text-align: left;
+	font-weight: 5px;
+	font-size: 25px;
+	padding:5px;
+	margin-bottom: 50px; 
+	background: #c5cae9
+}
+
+#ordered{
+	text-align: center;
+	margin-top: 0px;
+	background: lightblue;
+	background-color: transparent;
+	
+
+}
+
+#ordered li{
+	font-size: 2em; 
+	color:white;
+	padding: 20px;
+	margin-left: 10px;
+	background:#3d5afe;
+	display: inline-block;
+	list-style: none;
+	border-radius: 5px;
+
+}
+
+/*nav*/
+#trans {
+  background-color: black;
+}
+
+
+#ordered li:hover{
+	background: #e8eaf6;
+	color:#1a237e;
+}
+
+.midheader{
+	margin-top: 45px;
+	text-align: center;
+	color:white;
+	font-weight: 5px;
+	font-size: 25px;
+	padding: 5px;
+	background: #c5cae9
+}
+
+.fb{
+	margin-left: 5px;
+}
+
+#midheader li{
+	padding:5px;
+	display: inline-block;
+	list-style: none;
+}
+
+ hr{
+	display: none;
+}
+body{
+	background-color: transparent;
+}
+#cover{
+	margin-top: 40px;
+}
+#createbuttom{
+	margin-left : 170px;
+}
+#confirmpass{
+	padding-bottom: 5px;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+.panel{
+	border:none;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #SearchInput{
+	  width:200px;
+   }
+  .navbar-brand {
+	padding: 10px 18px;
+	margin-top: 0px;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+	color: #eee;
+	font-size: 1em;
+	padding: 10px;
+}
+body{
+	background-color: #eaece3;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
